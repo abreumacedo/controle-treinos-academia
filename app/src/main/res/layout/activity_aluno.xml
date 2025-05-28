@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_aluno"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_info_usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Usuário: ..."
+            android:textStyle="bold"
+            android:paddingBottom="12dp" />
+
+        <TextView
+            android:id="@+id/text_titulo_plano"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plano de Treino Atual"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_descricao_plano"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(Descrição do plano será exibida aqui)"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/btn_registrar_progresso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar Progresso de Hoje" />
+
+        <EditText
+            android:id="@+id/edit_mensagem_revisao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Escreva seu pedido de revisão" />
+
+        <Button
+            android:id="@+id/btn_enviar_revisao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Solicitar Revisão" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "641800858345",
+    "project_id": "controletreinosacademia",
+    "storage_bucket": "controletreinosacademia.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641800858345:android:9694eaf0f6b3a3bd0b1e78",
+        "android_client_info": {
+          "package_name": "com.example.controletreinosacademia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAen6mEb-JqUpUvuRnNkA-JO_Zgx2MNnTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

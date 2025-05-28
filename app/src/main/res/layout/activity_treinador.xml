@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_treinador"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_info_treinador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Treinador: ..."
+            android:textStyle="bold"
+            android:paddingBottom="12dp" />
+
+        <EditText
+            android:id="@+id/edit_id_aluno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID do Aluno (uid)" />
+
+        <EditText
+            android:id="@+id/edit_descricao_plano"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descrição do plano" />
+
+        <Button
+            android:id="@+id/btn_salvar_plano"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salvar Plano de Treino" />
+    </LinearLayout>
+</ScrollView>
